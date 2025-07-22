@@ -14,7 +14,7 @@
 ### Patron de Conception Fabrique (Factory)
       Le **patron Fabrique** est utilisé pour créer dynamiquement des objets liés aux attaques (comme celles par brute force ou dictionnaire) ainsi que des objets représentant les cibles (locale ou en ligne), selon les paramètres fournis par l'utilisateur. Ce modèle permet de générer ces objets sans avoir à se soucier de leurs détails d'implémentation.
       - **Factory Method** : Cette méthode permet de créer des objets de types spécifiques (attaques et cibles) en fonction du type demandé. Elle sépare la logique de création d'objets et permet d'utiliser différentes classes d'attaques et de cibles, sans avoir à préciser directement la classe exacte lors de l'appel.
-      - **Abstract Factory** : Bien que non explicitement utilisé dans le code, ce patron pourrait être appliqué pour gérer des groupes d'objets variant selon le type d'attaque (brute force ou dictionnaire) et le type de cible (locale ou en ligne). Ce modèle serait utile dans un système modulaire comme celui-ci, en permettant la création de familles d'objets d'attaques et de cibles liées.
+      
 
 ### Patron de Conception Strategy
       Le **patron Strategy** permet de définir plusieurs algorithmes (par exemple, différentes méthodes d'attaque) et de les rendre interchangeables, sans avoir à modifier la classe qui les utilise. Dans ce cas, chaque méthode d'attaque (par brute force, par dictionnaire) représente une stratégie distincte.
