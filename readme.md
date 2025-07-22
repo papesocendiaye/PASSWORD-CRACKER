@@ -24,7 +24,7 @@
 
 
 ## Documentation Java
-Pour une compréhension plus détaillée de chaque classe, méthode et attribut, veuillez consulter la [documentation Java générée](doc/index.html).
+Pour une compréhension plus détaillée de chaque classe, méthode et attribut, veuillez consulter la [documentation Java générée](https://papesocendiaye.github.io/PASSWORD-CRACKER/doc/).
 
 ## Installation
 
