@@ -6,7 +6,7 @@
 
 ## Diagramme de Classes
     Voici le diagramme de classes correspondant à l'architecture de ce projet. Il montre les relations entre les interfaces, les classes concrètes, et les patrons de conception utilisés.
-![Diagramme de Classes UML] (diagrammeClasse.jpeg)
+![Diagramme de Classes UML](diagrammeClasse.jpeg)
 
 
 ## Patrons de Conception
