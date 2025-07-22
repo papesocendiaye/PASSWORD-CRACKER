@@ -7,14 +7,31 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
+/**
+ * Classe représentant une cible d'authentification en ligne.
+ * Cette classe implémente l'interface Cible et tente de se connecter à un serveur
+ * distant via une requête HTTP POST pour vérifier les informations de connexion.
+ */
 public class ConnexionEnLigne implements Cible {
 
     private String login;
-
+    /**
+     * Constructeur de la classe ConnexionEnLigne.
+     * Initialise la cible avec un login pour la tentative de connexion.
+     * 
+     * @param login Le nom d'utilisateur utilisé pour l'authentification.
+     */
     public ConnexionEnLigne(String login) {
         this.login = login;
     }
-
+    /**
+     * Tente de se connecter à la cible en envoyant une requête HTTP POST avec le mot de passe spécifié.
+     * Cette méthode se connecte à un serveur distant en envoyant les informations de connexion (login et mot de passe)
+     * et attend une réponse pour déterminer si la connexion est réussie.
+     * 
+     * @param password Le mot de passe à tester pour la connexion.
+     * @return true si la connexion est réussie, sinon false.
+     */
     @Override
     public boolean tenterConnexion(String password) {
         try {
