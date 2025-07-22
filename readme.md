@@ -24,7 +24,7 @@
 
 
 ## Documentation Java
-Pour une compréhension plus détaillée de chaque classe, méthode et attribut, veuillez consulter la [documentation Java](lien_vers_javadoc.html).
+Pour une compréhension plus détaillée de chaque classe, méthode et attribut, veuillez consulter la [documentation Java générée](doc/index.html).
 
 ## Installation
 
@@ -34,4 +34,3 @@ Pour une compréhension plus détaillée de chaque classe, méthode et attribut,
 2. executer :
     ```bash
    git clone <url_du_repository>
-
